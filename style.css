@@ -491,6 +491,11 @@ footer {
         margin-left: 10px;
     }
     .projetos_img_link img{
-        width: 90%;
+        width: 300px;
     }
+
+    .projetos {
+        grid-template-columns: 1fr;
+    }
+    
 }
