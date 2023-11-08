@@ -312,6 +312,7 @@ footer {
 
     .descricao_sobre {
         font-size: 1em;
+        text-align: center;
     }
 
     .section_exception {
@@ -323,7 +324,7 @@ footer {
     }
 
     .conteudo_sobremim {
-        width: 90%;
+        width: 100%;
     }
 
     .descricao_sobre img{
@@ -385,10 +386,23 @@ footer {
         margin-right: 20px;
         font-size: 1em;
     }
+
+    #pagina_projetos_title {
+        font-size: 1.5em;
+    }
+
+    #mensagem_github {
+        font-size: 0.8em;
+    }
+
     #musicas_p {
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 1em;
+        font-size: 0.9em;
+    }
+
+    .musicas_main_title {
+        font-size: 1.5em;
     }
 
     footer {
