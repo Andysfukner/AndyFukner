@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Andy - Página inicial</title>
+  </head>
+  <body>
+    <header>
+      <div class="titulo_header">
+        <img src="./imagens/aSF_4.png" alt="logo" style="width: 70px;">
+      </div>
+      <div class="menu_header">
+          <a href="./paginas/sobreMim.html">Sobre mim</a>
+          <a href="./paginas/projetos.html">Projetos</a>
+          <a href="./paginas/musicas.html">Músicas</a>
+          <li> <a href="#"><img src="../portugues/imagens/language.png" alt="language" style="width: 24px;"></a> 
+            <ul>
+              <li><a href="../english/index.html" style="line-height: 10px;">English</a></li>
+              <li><a href="../espanol/index.html" style="line-height: 10px;">Español</a></li>
+            </ul>
+          </li>
+      </div>
+    </header>
+    <main>
+      <section class="container">
+        <div class="sobre_mim">
+          <div class="conteudo_sobremim">
+            <img class="section_exception" id="logo_index" src="./imagens/aSF_4.png" alt="logo" style="padding-right: 20px; width: 200px;">
+          </div>
+          <div class="conteudo_sobremim">
+            <p class="descricao_sobre">
+              Olá! Sou o Anderson, estudante de Análise e
+              Desenvolvimento de Sistemas.<br/>
+              Aqui você vai encontrar um pouco sobre meus estudos como desenvolvedor. <br />
+              Seja bem vindo!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" style="background: linear-gradient(to right, var(--color4), var(--color5) 40% 100%);">
+        <div class="sobre_mim">
+          <div class="conteudo_sobremim">
+            <p class="descricao_sobre">
+              Professor de inglês e espanhol.
+              <br>Fã de música, jogos e livros.
+              <br><a href="https://github.com/Andysfukner" target="_blank"><img src="./imagens/github.png" alt="Github"></a>
+              <a href="https://www.instagram.com/andys.fukner/" target="_blank"><img src="./imagens/instagram.png" alt="Instagram"></a>
+              <a href="https://www.facebook.com/andys.fukner/" target="_blank"><img src="./imagens/facebook.png" alt="Facebook"></a>
+              <a href="https://www.linkedin.com/in/andy-s-fukner/" target="_blank"><img src="./imagens/linkedin.png" alt="Linkedin"></a>
+            </p>
+          </div>
+          <div class="conteudo_sobremim">
+            <img id="musica_background" src="./imagens/music-159865_1280.webp" alt="musica">
+            <h1></h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="section_projetos">
+        <h2 class="projetos_main_title">Projetos</h2>
+        <div class="projetos">
+          <!--Correção de Provas - React Native-->
+          <div class="projeto-item-container">
+            <h3 class="projetos_each_title">
+              App Correção de Provas - React Native
+            </h3>
+            <div class="projetos_img_link">
+              <a
+                href="https://github.com/Andysfukner/Correcao-de-Provas---React-Native"
+                target="_blank"
+              >
+                <img
+                  src="./imagens/influx-app-2telas-pq2.png"
+                  alt="App correção de provas"
+                />
+              </a>
+            </div>
+            <div class="container__projetos__item descricao">
+              <p>
+                Aplicativo que me ajuda a calcular as notas das provas dos meus 
+                alunos de inglês de maneira mais rápida.
+              </p>
+            </div>
+          </div>
+
+          <!--Tela de Login - Java-->
+          <div>
+            <h3 class="projetos_each_title">Tela de Login e Cadastro - Java</h3>
+            <div class="projetos_img_link">
+              <a
+                href="https://github.com/Andysfukner/Tela-de-Login"
+                target="_blank"
+              >
+                <picture>
+                  <img
+                    src="./imagens/Java_TelaLoginCadastro2-pq.png"
+                    alt="tela de login e cadastro"
+                  />
+                </picture>
+              </a>
+            </div>
+            <div class="container__projetos__item descricao">
+              <p>
+                Pequeno projeto em Java para tela de Login e Cadastro de
+                usuários com interação ao banco de dados MySQL para salvar os novos usuários cadastrados.
+                Muito aprendizado novo em orientação a objetos.
+              </p>
+            </div>
+          </div>
+
+          <!--Correção de Provas - Python-->
+          <div class="container__projetos__item">
+            <h3 class="projetos_each_title">Corretor de Provas - Python</h3>
+            <div class="projetos_img_link">
+              <a
+                href="https://github.com/Andysfukner/Correcting-tests"
+                target="_blank"
+              >
+                <picture>
+                  <img
+                    src="./imagens/testesInflux-pq.png"
+                    alt="corretor de testes"
+                  />
+                </picture>
+              </a>
+            </div>
+            <div class="container__projetos__item descricao">
+              <p>
+                Código em Python para ajudar na correção de provas, calculando as notas
+                dos meus alunos de inglês. Coloco aqui por ser
+                um dos meus primeiros códigos e por usar até hoje.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a id="link_mais_projetos" href="./paginas/projetos.html">Mais Projetos <img src="https://www.fadisma.com.br/wp-content/uploads/2021/02/setas-branca.png" alt="" style="height: 16px; rotate: 270deg; margin-left: 5px;"></a>
+      </section>
+
+      <footer>
+        E-mail: andys.fukner@gmail.com
+      </footer>
+    </main>
+  </body>
+</html>

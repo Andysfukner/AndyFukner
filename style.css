@@ -23,6 +23,62 @@ a {
     text-decoration: none;
 }
 
+html, body {
+    height: 100%;
+  }
+
+.language_selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.language_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--color3);
+    height: 250px;
+    width: 190px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px;
+}
+
+.language_box h1 {
+    color: var(--color0);
+    background-color: var(--color7);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    line-height: 60px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.language_box a {
+    color: #F1F3F4;
+    font-size: 1.1em;
+    line-height: 40px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    margin-top: 5px;
+    width: 130px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.language_box a:hover {
+    width: 150px;
+    color: var(--color6);
+    background-color: var(--color4);
+}
+
 /* Width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -78,6 +134,32 @@ header {
     color: var(--color6);
     background-color: var(--color5);
 }
+
+.menu_header li {
+    list-style: none;
+    position: relative;
+    text-decoration: none;
+    color: #F1F3F4;
+    display: flex;
+}
+
+.menu_header li ul {
+    position: absolute;
+    top:30px;
+    right: 10px;
+    display:none;
+}
+
+.menu_header li:hover ul, .menu_header li.over ul {
+    display: flex;
+    flex-direction: column;
+}
+
+/*.menu_header li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+    }*/
 
 .titulo_header {
     margin-top: 25px;
@@ -171,6 +253,7 @@ main {
     background: linear-gradient(var(--color7) 0 30%, var(--color4));
     gap: 20px;
     border-radius: 10px 10px 0px 0px;
+    justify-content: center;
 }
 
 /*.projeto-item-container {
@@ -195,8 +278,10 @@ main {
 }
 
 .projetos_img_link{
+    display: flex;
     padding-top: 10px;
     height: 180px;
+    justify-content: center;
 }
 
 .projetos_img_link img{
